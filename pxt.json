@@ -1,0 +1,15 @@
+{
+    "name": "BitMouse",
+    "version": "0.0.4",
+    "description": "BitMouse test",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "BitMouse.ts",
+        "_locales/zh/BitMouse-strings.json"
+    ],
+    "public": true
+}

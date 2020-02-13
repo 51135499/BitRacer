@@ -4,7 +4,7 @@ enum PingUnit {
     //% block="μs"
     MicroSeconds,
     //% block="cm"
-    Centimeters,
+    Centimeters
 }
 
 //% weight=0 color=#f98020 icon="\uf1ba" block="BitRacer"
@@ -27,7 +27,7 @@ namespace BitRacer {
         //% blockId="IR4_Sensors" block="IR4"
         IR4 = 0x06,
         //% blockId="IR5_Sensors" block="IR5"
-        IR5 = 0x07,
+        IR5 = 0x07
     }	
 	export enum LineColor {
         //% blockId="White" block="White"

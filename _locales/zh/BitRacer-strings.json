@@ -15,6 +15,7 @@
 	"BitRacer.LEDswitch.off|block": "關閉",
 	"BitRacer.motorRun|block": "馬達|%index 速度|%speed",
 	"BitRacer.readIR|block": "讀取|%SensorID 感測器",
+	"BitRacer.readIR2|block": "讀取|%SensorID 感測器",
 	"BitRacer.CalibrateBegin|block": "校正開始",
 	"BitRacer.CalibrateEnd|block": "校正結束|%Color (線)",
 	"BitRacer.readLine|block": "讀取線位置"

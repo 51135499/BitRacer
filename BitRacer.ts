@@ -41,7 +41,7 @@ namespace BitRacer {
     }
     
 	//% weight=100
-    //% blockId=motor_MotorRun block="motor|%index|at speed|%PWM"
+    //% blockId=motor_MotorRun block="motor|%index|PWM value|%PWM"
     //% PWM.min=-1000 PWM.max=1000
     //% index.fieldEditor="gridpicker" index.fieldOptions.columns=3
     export function motorRun(index: Motors, PWM: number): void {
@@ -81,7 +81,7 @@ namespace BitRacer {
         return pins.i2cReadNumber(N76_ADDR, NumberFormat.UInt16BE, false)
     }
 	//% weight=85
-	//% blockId=sensor_readIR2 block="read |%SensorID sensor"
+	//% blockId=sensor_readIR2 block="read IRsensor |%SensorID"
 	//% SensorIDs.min=0 SensorIDs.max=4
     export function readIR2(SensorIDs: number): number {
         pins.i2cWriteNumber(

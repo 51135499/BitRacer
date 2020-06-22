@@ -143,6 +143,6 @@ namespace BitRacer {
             NumberFormat.UInt8LE,
             false
         )
-        return pins.i2cReadNumber(N76_ADDR, NumberFormat.Int16BE, false)
+        return pins.i2cReadNumber(N76_ADDR, NumberFormat.Int16BE, false) / 1000
     }
 }

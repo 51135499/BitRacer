@@ -13,7 +13,7 @@
 	"BitRacer.LEDs.LED_L|block": "左邊",
 	"BitRacer.LEDswitch.on|block": "開啟",
 	"BitRacer.LEDswitch.off|block": "關閉",
-	"BitRacer.motorRun|block": "馬達|%index 速度|%speed",
+    "BitRacer.motorRun|block": "馬達|%index|速度|%PWM",
 	"BitRacer.readIR|block": "讀取|%SensorID 感測器",
 	"BitRacer.readIR2|block": "讀取 第|%SensorID 顆 感測器",
 	"BitRacer.CalibrateBegin|block": "校正開始",
